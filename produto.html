@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Produto - DR.PILL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">Dr.Pill</a>
+            <ul class="nav-links">
+                <li><a href="produto.html">O Produto</a></li>
+                <li><a href="especificacoes.html">Especificações</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="parcerias.html">Parcerias</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Alternar tema"><i data-feather="sun"></i></button>
+            <button id="mobile-btn" aria-label="Menu Mobile"><i data-feather="menu"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produto">
+            <div class="container">
+                <h2>Como o DR.PILL funciona?</h2>
+                <p class="section-subtitle">Simples, inteligente e eficaz. Cuidar da sua saúde nunca foi tão fácil.</p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i data-feather="clock"></i>
+                        <h3>Programação Fácil</h3>
+                        <p>Configure os horários dos seus remédios uma única vez através de um aplicativo intuitivo.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i data-feather="bell"></i>
+                        <h3>Alertas Sonoros e Visuais</h3>
+                        <p>O DR.PILL emite um alerta luminoso e sonoro discreto na hora exata de tomar sua medicação.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i data-feather="check-circle"></i>
+                        <h3>Confirmação de Dose</h3>
+                        <p>Um simples toque no dispositivo confirma que você tomou o remédio, registrando tudo no seu histórico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="index.html" class="nav-arrow nav-arrow-prev" aria-label="Página Anterior"><i data-feather="arrow-left"></i></a>
+    <a href="especificacoes.html" class="nav-arrow nav-arrow-next" aria-label="Próxima Página"><i data-feather="arrow-right"></i></a>
+
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>

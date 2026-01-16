@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DR.PILL - Seu Lembrete de Saúde</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts para um design moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Ícones (usaremos para o seletor de tema) -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">Dr.Pill</a>
+            <ul class="nav-links">
+                <li><a href="produto.html">O Produto</a></li>
+                <li><a href="especificacoes.html">Especificações</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="parcerias.html">Parcerias</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Alternar tema">
+                <i data-feather="sun"></i>
+            </button>
+            <button id="mobile-btn" aria-label="Menu Mobile">
+                <i data-feather="menu"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Início (Hero) -->
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>A tranquilidade de nunca mais esquecer seu remédio.</h1>
+                    <p>Dr.Pill é o dispositivo inteligente que cuida da sua rotina de medicação para que você possa focar no que realmente importa: sua saúde.</p>
+                    <a href="produto.html" class="cta-button">Quero saber mais</a>
+                </div>
+                <div class="hero-image">
+                    <img src="imagem.png" alt="Imagem do dispositivo DR.PILL">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 DR.PILL. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="produto.html" class="nav-arrow nav-arrow-next" aria-label="Próxima Página"><i data-feather="arrow-right"></i></a>
+
+    <script src="script.js"></script>
+    <script>
+      // Inicializa os ícones do Feather
+      feather.replace();
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificações - DR.PILL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">Dr.Pill</a>
+            <ul class="nav-links">
+                <li><a href="produto.html">O Produto</a></li>
+                <li><a href="especificacoes.html">Especificações</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="parcerias.html">Parcerias</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Alternar tema"><i data-feather="sun"></i></button>
+            <button id="mobile-btn" aria-label="Menu Mobile"><i data-feather="menu"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="especificacoes">
+            <div class="container">
+                <h2>Especificações Técnicas</h2>
+                <div class="specs-content">
+                    <div class="specs-image">
+                        <img src="imagem.png" alt="Detalhe do dispositivo DR.PILL">
+                    </div>
+                    <ul class="specs-list">
+                        <li><i data-feather="volume-2"></i><strong>Buzzer:</strong> Atvio SV</li>
+                        <li><i data-feather="monitor"></i><strong>Display:</strong> LCD 16X2 com backlight azul e pinos soldados</li>
+                        <li><i data-feather="share-2"></i><strong>Jumpers:</strong> Macho/Macho</li>
+                        <li><i data-feather="sun" class="blinking-led"></i><strong>LED:</strong> Difuso 5mm vermelho</li>
+                        <li><i data-feather="cpu"></i><strong>Placa:</strong> Uno R3 + Cabo USB para Arduino</li>
+                        <li><i data-feather="grid"></i><strong>Protoboard:</strong> 830 pontos</li>
+                        <li><i data-feather="circle"></i><strong>Botão:</strong> Push Button 6x6x5mm</li>
+                        <li><i data-feather="activity"></i><strong>Resistor:</strong> 220k 1/4w</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="produto.html" class="nav-arrow nav-arrow-prev" aria-label="Página Anterior"><i data-feather="arrow-left"></i></a>
+    <a href="sobre.html" class="nav-arrow nav-arrow-next" aria-label="Próxima Página"><i data-feather="arrow-right"></i></a>
+
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
